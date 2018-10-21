@@ -3,11 +3,11 @@ import React from 'react'
 const Header = ({title, author, date, authorImage, imageUrl}) => (
   <div className="header" style={{ backgroundImage: `url(${imageUrl})`}}>
       <div className="info">
-        <h4><a> SV Header </a></h4>
+        <h4><a> Über Überschrift </a></h4>
         <h1> {title} </h1>
         <div className="meta">
           <img className="author" src={authorImage}/><br/>
-          By <a> {author} </a> on {date}
+          Geschrieben von <a> {author} </a> am {date}
         </div>
       </div>
   </div>

@@ -9,7 +9,7 @@ const Content = ({post}) => {
           <p dangerouslySetInnerHTML={{ __html: htmlString.post }} />
               <p align="center">
                   <Link to='/' className="btn">
-                    Back
+                    Zurück
                 </Link>
               </p>
         </section>
