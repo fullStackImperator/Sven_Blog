@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../logo.svg'
+import icon from '../wwf.svg'
 
 const Logo = ({logo, height, width, id, styleName}) => (
   <div>
